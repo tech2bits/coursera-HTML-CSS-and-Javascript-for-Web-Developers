@@ -1,12 +1,65 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Hello, World</title>
-</head>
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment Solution for Module 3</title>
+    <link rel="stylesheet" href="Lecture25/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'> <!-- Import font sizes   -->
+  </head>
 <body>
-<h1>Hello, World!
-</h1>
-</body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-brand">Food, LLC</div>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="collapsable-nav" class="collapse navbar-collapse" >
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#Chicken"><br class="hidden-xs"> Chicken</a>
+            </li>
+            <li>
+              <a href="#Beef"><br class="hidden-xs"> Beef</a>
+            </li>
+            <li>
+              <a href="#Sushi"><br class="hidden-xs"> Sushi</a>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div>
+    </nav>
+  </header>
+  <h1 class="text-center">Our Menu</h1>
+  <!--<div id="main-content" class="container"> -->
+    <div class="col-md-12, col-sm-12, col-xs-12">
+      <div id= "Chicken" class="jumbotron">
+        <h2> Chicken</h2>
+        <h3> Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile. To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section. Make sure its background color is set to distinguish it from the rest of the content. (Hint: don't forget to have an element with a class='container' or class='container-fluid' wrapping your grid. Remember that to have the grid do something "always", i.e., no matter what browser window size, use the col-xs-... classes. In this case, since we want the section to take up the entire row, use col-xs-12.)</h3>
+      </div>
 
+    <div id="Beef" class="jumbotron">
+      <h2> Beef</h2>
+      <h3> Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile. To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section. Make sure its background color is set to distinguish it from the rest of the content. (Hint: don't forget to have an element with a class='container' or class='container-fluid' wrapping your grid. Remember that to have the grid do something "always", i.e., no matter what browser window size, use the col-xs-... classes. In this case, since we want the section to take up the entire row, use col-xs-12.)</h3>
+    </div>
+  
+    <div id="Sushi" class="jumbotron">
+      <h2> Sushi</h2>
+      <h3> Create a single really tall section that will use the Bootstrap Grid and take up the entire width of the browser window (minus some margins, of course) for all views: desktop, tablet, and mobile. To make the section really tall, you can either fill it out with a LOT of text or simply set its height to something like 1000px. It needs to be tall enough to cause scrolling down to be required to view the bottom of the section. Make sure its background color is set to distinguish it from the rest of the content. (Hint: don't forget to have an element with a class='container' or class='container-fluid' wrapping your grid. Remember that to have the grid do something "always", i.e., no matter what browser window size, use the col-xs-... classes. In this case, since we want the section to take up the entire row, use col-xs-12.)</h3>
+    </div>
+  </div>
+
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="Lecture25/js/jquery-2.1.4.min.js"></script>
+  <script src="Lecture25/js/bootstrap.min.js"></script>
+  <script src="Lecture25/js/script.js"></script>
+</body>
 </html>
